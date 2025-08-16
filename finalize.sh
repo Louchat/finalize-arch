@@ -29,7 +29,8 @@ install_pacman_packages() {
         fastfetch \
         neofetch \
         ani-cli \
-        dolphin
+        dolphin \
+        fish
     echo "✅ Pacman packages installed"
 }
 
