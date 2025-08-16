@@ -7,15 +7,17 @@ It automatically sets up your system with Flatpak, GRUB customization, essential
 
 📦 Installs and configures Flatpak with Flathub
 
-📦 Installs popular Flatpak applications (Spotify, Discord, Steam, Opera, Minecraft launcher, etc.)
-
 🎮 Installs Flatpak apps like PrismLauncher, Dolphin Emulator, Citra, Sober
 
-🎨 Applies a custom GRUB theme
+📦 Installs essential applications: Spotify, Discord, Steam, Opera, Minecraft launcher (all via Flatpak)
 
-🛠️ Installs essential packages: git, base-devel, cmatrix, cava, fastfetch, neofetch, ani-cli, dolphin
+🛠️ Installs useful terminal tools: cmatrix, cava, fastfetch, neofetch, ani-cli
+
+📂 Installs Dolphin File Manager
 
 🚀 Installs yay for AUR support
+
+🎨 Applies a custom GRUB theme
 
 🔧 How to use
 
