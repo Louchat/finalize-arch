@@ -1,24 +1,27 @@
-🌌 Finalize Arch
+# 🌌 Finalize Ubuntu An **intelligent installation script** for Ubuntu. It automatically sets up your system with Flatpak, Snap, GRUB customization, essential applications, and even a custom wallpaper. --- ## ✨ Features - 📦 Installs and configures **Flatpak** with Flathub - 📦 Installs popular **Snap applications** (Spotify, Discord, Steam, Opera, Minecraft launcher, etc.) - 🎮 Installs Flatpak apps like PrismLauncher, Dolphin Emulator, Citra, Sober - 🎨 Applies a **custom GRUB theme** - 🖼️ Optionally sets your **wallpaper** from the wallpeper/ folder --- ## 🔧 How to use Clone the repository and run the script:
+bash
+git clone https://github.com/Louchat/finalize-ubuntu.git
+cd finalize-ubuntu
+chmod +x finalize.sh
+./finalize.sh
 
-An intelligent installation script for Arch Linux.
-It automatically sets up your system with Flatpak, GRUB customization, essential applications, and AUR support.
+🖼️ Wallpaper
 
-✨ Features
+You can put your wallpapers inside the wallpeper/ folder.
+By default, the script will try to apply:
 
-📦 Installs and configures Flatpak with Flathub
+$(pwd)/wallpeper/wallpeper.jpg
 
-🎮 Installs Flatpak apps like PrismLauncher, Dolphin Emulator, Citra, Sober
+If you are using GNOME, you can uncomment the following line in the script to apply it automatically:
 
-📦 Installs essential applications: Spotify, Discord, Steam, Opera, Minecraft launcher (all via Flatpak)
+gsettings set org.gnome.desktop.background picture-uri "file://$wallpaper_path"
 
-🛠️ Installs useful terminal tools: cmatrix, cava, fastfetch, neofetch, ani-cli
+⚠️ Requirements
 
-📂 Installs Dolphin File Manager
+    Ubuntu-based distribution (tested on Ubuntu 22.04+)
 
-🚀 Installs yay for AUR support
+    sudo privileges
 
-🎨 Applies a custom GRUB theme
+🌟 Enjoy your setup!
 
-🔧 How to use
-
-Clone the repository and run the script:
+This script is designed to make post-installation faster, easier, and smarter 🚀
