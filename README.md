@@ -1,23 +1,21 @@
 🌌 Finalize Arch
 
-An all-in-one installation script for Arch Linux.
-It automatically sets up your system with Flatpak, Flathub, essential apps, and even a custom GRUB theme.
+An intelligent installation script for Arch Linux.
+It automatically sets up your system with Flatpak, GRUB customization, essential applications, and AUR support.
 
 ✨ Features
 
-🔄 Updates the system via pacman
+📦 Installs and configures Flatpak with Flathub
 
-📦 Installs essential packages: flatpak, git, base-devel, cmatrix, cava, fastfetch, neofetch, ani-cli, dolphin
+📦 Installs popular Flatpak applications (Spotify, Discord, Steam, Opera, Minecraft launcher, etc.)
 
-🚀 Installs yay (AUR helper) if not already present
+🎮 Installs Flatpak apps like PrismLauncher, Dolphin Emulator, Citra, Sober
 
-🛰️ Adds the Flathub repository for Flatpak
+🎨 Applies a custom GRUB theme
 
-🖥️ Installs Flatpak apps: PrismLauncher, Dolphin Emulator, Citra, Sober, Opera, Spotify, Discord, Steam, Minecraft
+🛠️ Installs essential packages: git, base-devel, cmatrix, cava, fastfetch, neofetch, ani-cli, dolphin
 
-⏳ Sets GRUB timeout to -1 (infinite)
-
-🎨 Installs Cipher GRUB theme
+🚀 Installs yay for AUR support
 
 🔧 How to use
 
