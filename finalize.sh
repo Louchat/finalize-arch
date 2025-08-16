@@ -27,8 +27,6 @@ install_pacman_packages() {
         cmatrix \
         cava \
         fastfetch \
-        neofetch \
-        ani-cli \
         dolphin \
         fish
     echo "✅ Pacman packages installed"
